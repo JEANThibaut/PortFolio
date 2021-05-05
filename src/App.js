@@ -2,10 +2,11 @@
 import './App.css';
 import Header from "./components/layout/header/Header";
 import Footer from "./components/layout/footer/Footer";
-import Nav from "./components/layout/nav/Nav"
-import Projects from "./components/projects/Projects"
-import Biographie from "./components/biographie/Biographie"
-import Contact from "./components/contact/Contact"
+import Nav from "./components/layout/nav/Nav";
+import DropNav from "./components/layout/dropnav/DropNav";
+import ProjectsCards from "./components/projects/projectscards/ProjectsCards";
+import Biographie from "./components/biographie/Biographie";
+import Contact from "./components/contact/Contact";
 
 
 import {
@@ -19,16 +20,23 @@ function App(){
     <div>
       <Header />
       <Router>
-        <Nav />
-        <Route path="/projects">
-          <Projects />
-        </Route>
-        <Route path="/biographie">
-          <Biographie />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
+        <Switch>
+          <Route path="/projects">
+            <Nav />
+            <ProjectsCards />
+          </Route>
+          <Route path="/biographie">
+              <Nav />
+            <Biographie />
+          </Route>
+          <Route path="/contact">
+            <Nav />
+            <Contact />
+          </Route>
+          <Route path="/">
+            <DropNav />
+          </Route>
+        </Switch>
       </Router>
       <Footer />
     </div>
