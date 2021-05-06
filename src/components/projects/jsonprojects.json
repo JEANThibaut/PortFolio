@@ -1,19 +1,19 @@
-{
-
-    "Id1":{
+[
+    {
         "title": "Terre de Geek",
         "project": "Projet site HTML/CSS",
         "description": "Blablablablablablablablablablablablablablablablabalbla",
         "giturl": "test link",
-        "ghpage" : "ghpage"
+        "ghpage" : "ghpage",
+        "image": "logoTdG.png"
     },
 
-    "Id2":{
+    {
         "title": "Memory",
         "project": "Jeu",
         "description": "Blablablablablablablablablablablablablablablablabalbla2",
         "giturl": "test link 2",
-        "ghpage" : "ghpage 2"
+        "ghpage" : "ghpage 2",
+        "image": "null"
     }
-
-}
+]
