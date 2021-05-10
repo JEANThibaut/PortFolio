@@ -1,19 +1,29 @@
 [
-    {
+    {   "id":"Tdg",
         "title": "Terre de Geek",
         "project": "Projet site HTML/CSS",
-        "description": "Blablablablablablablablablablablablablablablablabalbla",
-        "giturl": "test link",
-        "ghpage" : "ghpage",
-        "image": "logoTdG.png"
+        "description": "Ceci est un projet HTML CSS",
+        "giturl": "https://github.com/JEANThibaut/Terre-de-Geek",
+        "ghpage" : "https://jeanthibaut.github.io/Terre-de-Geek/",
+        "image":  "img/logoTdG.png",
+        "techno": {
+            "html": "img/imgLogo/htmlLogo.png",
+            "css": "img/imgLogo/cssLogo.png"
+        }
     },
 
-    {
+    {   
+        "id": "Mem",
         "title": "Memory",
         "project": "Jeu",
-        "description": "Blablablablablablablablablablablablablablablablabalbla2",
-        "giturl": "test link 2",
-        "ghpage" : "ghpage 2",
-        "image": "null"
+        "description": "Projet html css js",
+        "giturl": "https://github.com/JEANThibaut/Games",
+        "ghpage" : "https://jeanthibaut.github.io/Games/",
+        "image": "img/logogame.png",
+        "techno": {
+            "html": "img/imgLogo/htmlLogo.png",
+            "css": "img/imgLogo/cssLogo.png",
+            "js": "img/imgLogo/jsLogo.png"
+        }
     }
 ]

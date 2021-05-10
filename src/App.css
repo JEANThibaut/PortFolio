@@ -1,10 +1,45 @@
 .App {
+  
   text-align: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+
+.imgCards{
+  max-width: 100%;
+  max-height: 20vh;
+  border-radius: 1em;
+}
+.scroll{
+  width: 80%;
+  height: 25em;
+  margin-left: 10%;
+  overflow-y: scroll;
+}
+header{
+  background: rgba(255, 255, 255, 0.329);
+  margin-top: 1em;
+  border-radius: 1em;
+  width: 80vw;
+  border:solid 1px black;
+  margin-left: 10vw;
+}
+.carte{
+  border-radius: 1em;
+  background: rgba(255, 255, 255, 0.329);
+}
+.navg{
+  background: rgba(255, 255, 255, 0.329);
+  border-radius: 1em;
+
+}
+
+footer{
+  height:10vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -24,9 +59,13 @@
   color: white;
 }
 
+
 .App-link {
   color: #61dafb;
 }
+
+
+
 
 @keyframes App-logo-spin {
   from {
@@ -37,3 +76,12 @@
   }
 }
 
+@media (min-width: 1024px){
+  
+
+footer{
+  position: absolute;
+  bottom: 0;
+}
+
+}

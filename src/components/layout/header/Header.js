@@ -2,7 +2,7 @@
 function Header() {
    
     return (
-        <header className="container-fluid text-center py-5 bg-secondary">
+        <header className=" text-center py-4">
             <section>
                 <h1>JEAN Thibaut</h1>
                 <p>Développeur Web</p>
