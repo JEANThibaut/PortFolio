@@ -5,7 +5,7 @@ function Header() {
         <header className=" text-center py-4">
             <section>
                 <h1>JEAN Thibaut</h1>
-                <p>Développeur Web</p>
+                <h3>Développeur Web</h3>
             </section>
         </header>
     );

@@ -16,7 +16,7 @@ function ProjectsCards(){
             {jsonprojects.map((project)=>{ 
                 return (                    
                     <Col lg="5" md="4" sm="8">
-                        <Card className= "text-center my-2 carte">
+                        <Card className= "text-center carte">
                             <CardBody className="Card">
                                 <img  src={project.image} alt={project.image} className="imgCards bg-dark"/>
                                 <CardSubtitle className="mb-2">{project.project}</CardSubtitle>

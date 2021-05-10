@@ -1,8 +1,9 @@
 function Footer() {
     return(
-        <footer className=" container-fluid bg-secondary text-center text-white py-3">
-            <p>Réaliser avec React JS</p>
-            
+        <footer className=" container-fluid text-center py-3">
+            <img className="logo mx-3" src="img/imgLogo/twitter.png" ></img>
+            <img className="logo mx-3" src="img/imgLogo/github.png" ></img>
+            <img className="logo mx-3" src="img/imgLogo/linkedin.png" ></img>
         </footer>
     );
 }

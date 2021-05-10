@@ -1,14 +1,13 @@
 .App {
-  
   text-align: center;
 }
-
+.nav-link{
+  color:black;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
-
 .imgCards{
   max-width: 100%;
   max-height: 20vh;
@@ -21,7 +20,7 @@
   overflow-y: scroll;
 }
 header{
-  background: rgba(255, 255, 255, 0.329);
+  background: rgba(255, 255, 255, 0.7);
   margin-top: 1em;
   border-radius: 1em;
   width: 80vw;
@@ -29,17 +28,24 @@ header{
   margin-left: 10vw;
 }
 .carte{
+  display: flex;
+  flex-direction: column;
   border-radius: 1em;
-  background: rgba(255, 255, 255, 0.329);
+  background: rgba(255, 255, 255, 0.7);
 }
 .navg{
-  background: rgba(255, 255, 255, 0.329);
+  background: rgba(255, 255, 255, 0.7);
   border-radius: 1em;
-
 }
-
 footer{
+  display: flex;
+  justify-content: flex-end;
   height:10vh;
+  background: rgba(255, 255, 255, 0.7)
+}
+.card-img-top{
+  max-width: 60%;
+  margin-top: 1em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -47,7 +53,6 @@ footer{
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -58,14 +63,12 @@ footer{
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-
 .App-link {
   color: #61dafb;
 }
-
-
-
+.logo{
+  max-height:8vh;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -78,10 +81,17 @@ footer{
 
 @media (min-width: 1024px){
   
-
-footer{
-  position: absolute;
-  bottom: 0;
+  footer{
+    position: absolute;
+    bottom: 0;
+  }
 }
 
+@media (max-width: 780px){
+
+
+
+h3{
+    font-size: 1em;
+  }
 }
