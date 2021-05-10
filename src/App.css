@@ -41,11 +41,22 @@ footer{
   display: flex;
   justify-content: flex-end;
   height:10vh;
-  background: rgba(255, 255, 255, 0.7)
+  background: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  bottom: 0;
 }
 .card-img-top{
   max-width: 60%;
   margin-top: 1em;
+}
+
+.contactLogo{
+  width: 20vw;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 1em;
+  padding: 1em;
+  margin-left: 40vw;
+  margin-top: 5em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -80,16 +91,16 @@ footer{
 }
 
 @media (min-width: 1024px){
-  
-  footer{
-    position: absolute;
-    bottom: 0;
-  }
-}
 
+ 
+}
 @media (max-width: 780px){
 
 
+  .contactLogo{
+    width: 40vw;
+    margin-left: 30vw;
+  }
 
 h3{
     font-size: 1em;
